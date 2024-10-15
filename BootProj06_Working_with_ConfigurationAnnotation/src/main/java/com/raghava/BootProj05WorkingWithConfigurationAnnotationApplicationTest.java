@@ -8,11 +8,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 import com.raghava.sbeans.Hospital;
 
 @SpringBootApplication
-public class BootProj06WorkingWithConfigurationAnnotationApplicationTest {
+public class BootProj05WorkingWithConfigurationAnnotationApplicationTest {
 
 	public static void main(String[] args) {
 		
-	ApplicationContext ctx = 	SpringApplication.run(BootProj06WorkingWithConfigurationAnnotationApplicationTest.class, args);
+	ApplicationContext ctx = 	SpringApplication.run(BootProj05WorkingWithConfigurationAnnotationApplicationTest.class, args);
 	
 Hospital hsptl2=	ctx.getBean("hsptl",Hospital.class);
 System.out.println(hsptl2);
