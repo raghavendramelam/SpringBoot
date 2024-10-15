@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: BootProj06_Working_with_ConfigurationAnnotation
+
+hsptl:
+  name: Apollo
+  location: Hyderabad
+  custname: Kiran
+  bill: 89000
+  custdisease: malaria
+  custage: 30
+
+  # Injecting an array (favcolors)
+  favcolors:
+    - blue
+    - red
+    - white
+    - violet
+    - pink
+#favcolors:[blue,red,white,violet,pink]
+#favcolors:blue,red,white,violet,pink
+  # Injecting a list (jobs)
+  jobs:
+    - doctor
+    - nurse
+    - receptionist
+    - custodian
+    - security
+
+  # Injecting a set (patientsid) - YAML does not have explicit Set types but Spring will treat these as Sets
+  patientsid:
+    - 67890987
+    - 98765987
+    - 56789009
+
+  # Injecting a map (billingdetails)
+  billingdetails:
+    opcost: 2000
+    mriscan: 5000
+    sugarcheckup: 3000
+    bodycheckup: 100000
+
+  # Injecting HAS-A type properties (employeedetails)
+  employeedetails:
+    empid: 47884
+    empname: Rmesh
+    empdesg: surgeon
+    location: Hyd
