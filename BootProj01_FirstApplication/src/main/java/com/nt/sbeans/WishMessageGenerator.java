@@ -1,4 +1,4 @@
-package com.raghava.sbeans;
+package com.nt.sbeans;
 
 import java.time.LocalDateTime;
 
