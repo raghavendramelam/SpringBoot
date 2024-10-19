@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "spring.config.active.profile",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.config.active.profile'"
+}]}

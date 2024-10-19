@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/Spring
+    c3p0:
+      max-idle-time: '300        # Max idle time in seconds before releasing connection'
+      max-statements: '50        # Number of prepared statements to cache'
+      idle-test-period: '300     # Time between tests of idle connections'
+      acquire-increment: '1      # Number of new connections to acquire at a time'
+      min-size: '5               # Minimum number of idle connections'
+      max-size: '20              # Maximum number of active connections'
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    password: raghava@17
+  application:
+    name: BootProj03_RealTimeDI

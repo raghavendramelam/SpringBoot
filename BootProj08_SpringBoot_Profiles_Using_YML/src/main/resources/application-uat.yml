@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql:///Spring
+    password: raghava@17
+  application:
+    name: BootProj03_RealTimeDI
